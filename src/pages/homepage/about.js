@@ -2,7 +2,6 @@ import React from 'react';
 import './about.scss';
 import p2 from '../../assets/p2.jpg';
 import p1 from '../../assets/p1.jpg';
-import { Link } from 'react-router-dom';
 export const About = () => {
     return (
         <div className='aboutus'>

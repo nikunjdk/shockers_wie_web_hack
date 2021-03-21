@@ -1,6 +1,5 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import { FormInput } from '../FormInput/FormInput';
-import { useHistory } from 'react-router-dom';
 import './signin.scss';
 
 
@@ -8,11 +7,7 @@ import './signin.scss';
 export const Signin = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const history = useHistory();
-    const handleSubmit = (event) => {
-        event.preventDefault();
 
-    }
 
     return (
         <div className="card card-main card-signin-main">

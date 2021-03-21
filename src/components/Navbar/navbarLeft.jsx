@@ -9,7 +9,7 @@ export const NavbarLeft = ({ user }) => {
     return (
 
         <nav >
-            <Link to='/'><img src={imgUrl} className='logo' /></Link>
+            <Link to='/'><img src={imgUrl} alt='logo' className='logo' /></Link>
             <div className="left">
                 {data.map(i =>
                     <span className="link1" onClick={() => console.log(i.label)} key={i.label}>
